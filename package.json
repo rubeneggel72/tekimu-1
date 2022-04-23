@@ -4,6 +4,7 @@
   "description": "Creating a dating site using React, Node JS and Mysql",
   "main": "./routes/server.js",
   "scripts": {
+    "start":"./routes/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf build && cd ./client && npm run build --prod && cp -r build ../"
   },
