@@ -28,7 +28,7 @@ const io = require("socket.io")(server);
 // server = app.listen(process.env.PORT || 8080);
 
 // const io = require("socket.io")(server);
-app.use(express.static(path.resolve(__dirname, "./client/build")));
+app.use(express.static(path.resolve(__dirname, "../client/build")));
 const bodyParser = require("body-parser");
 const userRoute = require("./userRoute");
 app.get('/test', (req, res) => {
