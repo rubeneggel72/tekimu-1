@@ -5,7 +5,7 @@
   "main": "node ./routes/server.js",
   "scripts": {
     "start": "node ./routes/server.js",
-    "heroku-postbuild": "cd client && npm install && npm run start"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "RUBEN EGGEL",
   "license": "MIT",

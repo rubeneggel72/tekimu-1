@@ -26,7 +26,7 @@ const io = require("socket.io")(server);
 // const app = express();
 
 // server = app.listen(process.env.PORT || 8080);
-app.use(express.static('build')); // serve static files (css & js) from the 'public' directory
+aapp.use(express.static(path.resolve(__dirname, "./client/build"))); // serve static files (css & js) from the 'public' directory
 // const io = require("socket.io")(server);
 // app.use(express.static('./public'));
 const bodyParser = require("body-parser");
