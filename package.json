@@ -4,8 +4,8 @@
   "description": "Creating a dating site using React, Node JS and Mysql",
   "main": "node ./routes/server.js",
   "scripts": {
-    "start":"node ./routes/server.js",
-      "heroku-postbuild": "cd client && npm install && npm run build"
+    "start": "node ./routes/server.js",
+    "heroku-postbuild": "cd client && npm install && npm run start"
   },
   "author": "RUBEN EGGEL",
   "license": "MIT",
