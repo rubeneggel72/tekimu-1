@@ -46,7 +46,7 @@ module.exports = {
 
       },
       (err, info) => {
-        console.log(info.envelope);
+  
         console.log(err);
       }
     );
